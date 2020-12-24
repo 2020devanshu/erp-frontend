@@ -1,0 +1,73 @@
+/* body {
+  overflow: hidden;
+} */
+
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../Assets/images/loginBg_desktop.png);
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+  padding: 5% 0;
+}
+
+.lamp__svg {
+  position: absolute;
+  width: 15%;
+  top: 0;
+  left: 5%;
+}
+
+.desk__svg {
+  position: absolute;
+  width: 45%;
+  bottom: 0;
+  left: 25px;
+}
+
+.cls-22 {
+  animation-name: flicker;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .login-container {
+    background-image: url(../../Assets/images/loginBg_mobile.png);
+    background-size: cover;
+    width: 100vw;
+  }
+
+  .desk__svg {
+    width: 80%;
+    bottom: 110px;
+  }
+
+  .lamp__svg {
+    width: 25%;
+    left: 0;
+  }
+}

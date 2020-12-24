@@ -1,0 +1,85 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: fit-content;
+  height: 100vh;
+  background-color: white;
+  border: 1px solid #07caf3;
+  z-index: 100;
+}
+
+.Sidebar > Button {
+  outline: none;
+}
+
+.Sidebar__Icon {
+  color: #07caf3;
+  font-size: 30px;
+}
+
+.iconActive {
+  background-color: #07caf3;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
+
+.iconActive {
+  animation: selected 0.5s ease-in-out 0s 1 normal;
+}
+
+@keyframes selected {
+  0% {
+    transform: scale(0.8);
+    transform: translateX(-50px);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    transform: translateX(0);
+  }
+}
+
+/* @keyframes selected {
+    0% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+} */
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .Sidebar {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #07caf3;
+    z-index: 100;
+  }
+
+  @keyframes selected {
+    0% {
+      transform: scale(0.8);
+      transform: translateY(+50px);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+      transform: translateY(0);
+    }
+  }
+  
+  
+}

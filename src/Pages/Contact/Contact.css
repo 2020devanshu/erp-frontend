@@ -1,0 +1,129 @@
+.contact__map {
+  padding: 0 !important;
+}
+/* .container-fluid {
+  padding: 0 !important;
+} */
+
+.contact__map > .col-md-6 {
+  padding: 0 !important;
+  height: inherit;
+  overflow: hidden;
+}
+
+.map-map {
+  height: 100vh;
+  padding: 0 !important;
+}
+
+.map-img {
+  width: 100%;
+}
+
+.pointer {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  height: 50%;
+  overflow: hidden;
+}
+
+.pointer__phone {
+  position: absolute;
+  width: -webkit-fill-available;
+  left: 0;
+  bottom: 0;
+}
+.pointer__tip {
+  position: absolute;
+  width: 150px;
+  left: 30%;
+  bottom: 15%;
+  transition: bottom 0.5s ease;
+  z-index: 3;
+}
+
+.pointer:hover .pointer__tip {
+  bottom: 20%;
+}
+
+.pointer2
+
+/* Mobile CSS----Start */
+
+.iframe-map {
+  height: 20rem;
+}
+
+.pointer-mobile {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  height: 35%;
+  overflow: hidden;
+}
+
+.pointer-mobile__tip {
+  position: absolute;
+  width: 40%;
+  left: 25%;
+  bottom: 10%;
+  transition: bottom 0.5s ease;
+  z-index: 3;
+}
+
+
+
+/* Mobile CSS----End */
+
+
+
+.cls-top {
+  z-index: 2 !important;
+}
+
+.pointer__clouds {
+  position: absolute;
+  height: 160px;
+  width: auto;
+  left: 0;
+  animation-name: clouds;
+  animation-duration: 50s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes clouds {
+  0%{
+    transform: translateX(0px);
+  }
+  100%{
+    transform: translateX(-2000px);
+  }
+}
+
+.cls-1 {
+  fill: aqua !important;
+}
+
+.contact__details > h3 {
+  font-family: var(--arvo);
+}
+
+.contact__map > .row {
+  margin: 0 !important;
+}
+
+
+.contact__form{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.contact__form__row{
+  height: 100vh;
+}

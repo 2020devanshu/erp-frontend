@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194.43 259.59">
+	<defs>
+		<style>
+			.cls-1{isolation:isolate;}.cls-2{fill:#424242;opacity:0.2;mix-blend-mode:multiply;}.cls-3{fill:#ef5350;}.cls-4{fill:#e53935;}
+		</style>
+	</defs>
+	<title>
+		pointer
+	</title>
+	<g class="cls-1">
+		<g id="Layer_2" data-name="Layer 2">
+			<g id="OBJECTS">
+				<ellipse class="cls-2" cx="97.22" cy="243.37" rx="61.53" ry="16.22" />
+				<path class="cls-3" d="M97.22,0A97.22,97.22,0,0,0,0,97.22c0,53.69,97.22,146.15,97.22,146.15s97.21-92.46,97.21-146.15A97.22,97.22,0,0,0,97.22,0Zm0,151.76a54.55,54.55,0,1,1,54.54-54.54A54.54,54.54,0,0,1,97.22,151.76Z" />
+				<path class="cls-4" d="M97.22,32.07a65.15,65.15,0,1,0,65.14,65.15A65.15,65.15,0,0,0,97.22,32.07Zm0,109.06a43.92,43.92,0,1,1,43.91-43.91A43.91,43.91,0,0,1,97.22,141.13Z" />
+			</g>
+		</g>
+	</g>
+</svg>

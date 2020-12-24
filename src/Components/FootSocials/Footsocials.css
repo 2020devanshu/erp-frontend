@@ -1,0 +1,17 @@
+.foot_socials {
+    height: 120px;
+    background-color: #273043;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials__icons {
+    display: flex;
+    align-items: center;
+}
+
+.socials__icons > a {
+    text-decoration: none;
+}

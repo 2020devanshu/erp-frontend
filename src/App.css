@@ -1,0 +1,55 @@
+/* Font Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+/* End */
+:root {
+  --open-sans: "Open Sans", sans-serif;
+  --arvo: "Arvo", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.erp {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  width: -webkit-fill-available;
+  overflow: scroll;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  main {
+    height: -webkit-fill-available;
+    overflow: scroll;
+    width: 100%;
+    margin-bottom: 60px;
+    /* padding-top: 25px; */
+  }
+  main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .erp::-webkit-scrollbar {
+    display: none;
+  }
+}

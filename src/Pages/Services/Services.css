@@ -1,0 +1,98 @@
+.services__heading > h1,
+.features > h1 {
+  font-family: var(--arvo);
+  /* margin-top: 50px; */
+}
+
+.services__heading > p {
+  font-family: var(--open-sans);
+  font-weight: 100;
+  opacity: 0.6;
+  font-size: 0.9em;
+}
+
+.services__process {
+  padding: 0 10px;
+}
+
+.services__heading {
+  width: 90%;
+  margin: auto;
+}
+
+.service__step {
+  position: relative;
+  height: 50px;
+  margin: auto;
+}
+
+.services__image {
+  width: 85%;
+}
+
+.service__step__icon {
+  position: absolute;
+  left: 42%;
+  top: 0;
+  height: inherit;
+  transition: top 0.4s ease;
+}
+
+.services__block:hover .service__step__icon {
+  top: -10px;
+}
+/* 
+.services__block:hover .one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+} */
+
+/* CheckList CSS---- Start */
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.check-list-section {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.check-list-section div {
+  margin: auto;
+}
+
+.check-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.check-list li {
+  text-align: left;
+  position: relative;
+  list-style-type: none;
+  padding-left: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.check-list li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 5px;
+  height: 11px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #00a8a8;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+}
+
+/* CheckList CSS---- End */

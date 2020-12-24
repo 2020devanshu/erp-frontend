@@ -1,0 +1,11 @@
+.fp-controlArrow.fp-prev {
+  border-color: transparent rgba(7, 202, 243, 0.5) transparent transparent !important;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent rgba(7, 202, 243, 0.5) !important;
+}
+
+/* .fp-tableCell {
+  vertical-align: center !important;
+} */
